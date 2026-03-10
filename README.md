@@ -27,7 +27,13 @@ IF % (In Full)	Percentage of orders delivered with complete quantities
 OTIF %	Orders delivered both on time and in full
 LIFR %	Line Fill Rate
 VOFR %	Volume Fill Rate
+
 📈 Dashboard Features
+## 🌐 Live Dashboard
+
+View the interactive Power BI dashboard here:
+
+https://app.powerbi.com/view?r=eyJrIjoiMGQ5MzAxZjAtY2VkOS00MWZlLWJhMjUtOGY5OTE0OTBjNTdhIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=207c94a0c367bc805c68
 
 The Power BI dashboard includes the following analytical views:
 
@@ -110,6 +116,8 @@ dim_date
 dim_targets_orders
 
 These tables were modeled using a Star Schema to optimize analytical performance.
+![fmcg model view](https://github.com/user-attachments/assets/2aeef056-1513-44a7-b476-35dea58dd4da)
+
 
 📸 Dashboard Preview
 Executive View
@@ -141,7 +149,7 @@ Data storytelling for decision-making
 
 📌 Conclusion
 
-This project demonstrates how data analytics can be used to monitor service level performance in FMCG supply chains, identify operational inefficiencies, and support data-driven decision-making.
+This dashboard provides actionable insights into service level performance within the FMCG supply chain. By analyzing OTIF, LIFR, and VOFR metrics across cities, customers, and products, the dashboard helps identify delivery inefficiencies and fulfillment gaps. These insights can support data-driven decision-making to improve operational efficiency and customer satisfaction.
 
 👤 Author
 
