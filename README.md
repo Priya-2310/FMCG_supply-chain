@@ -7,26 +7,22 @@ The objective of this project is to evaluate how effectively orders are delivere
 
 🎯 Project Objectives
 
-Analyze service level performance across the FMCG distribution network
-
-Monitor delivery timeliness and order fulfillment accuracy
-
-Identify delayed orders and incomplete deliveries
-
-Highlight customer-level and product-level supply chain issues
-
-Provide actionable insights to improve supply chain efficiency
+ * Analyze service level performance across the FMCG distribution network
+ * Monitor delivery timeliness and order fulfillment accuracy
+ * Identify delayed orders and incomplete deliveries
+ * Highlight customer-level and product-level supply chain issues
+ * Provide actionable insights to improve supply chain efficiency
 
 📊 Key Metrics
 
 The dashboard focuses on the following service level metrics:
 
-Metric	Description
-OT % (On Time)	Percentage of orders delivered on time
-IF % (In Full)	Percentage of orders delivered with complete quantities
-OTIF %	Orders delivered both on time and in full
-LIFR %	Line Fill Rate
-VOFR %	Volume Fill Rate
+**Metric	Description**
+**OT % **(On Time)	Percentage of orders delivered on time
+**IF %** (In Full)	Percentage of orders delivered with complete quantities
+**OTIF %**	Orders delivered both on time and in full
+**LIFR %	**Line Fill Rate
+**VOFR %**	Volume Fill Rate
 
 📈 Dashboard Features
 ## 🌐 Live Dashboard
@@ -37,55 +33,39 @@ https://app.powerbi.com/view?r=eyJrIjoiMGQ5MzAxZjAtY2VkOS00MWZlLWJhMjUtOGY5OTE0O
 
 The Power BI dashboard includes the following analytical views:
 
-Executive Overview
+**Executive Overview**
 
-Service level KPI tracking
+* Service level KPI tracking
+* Actual vs Target performance comparison
+* City-wise service level performance
+  
+**Customer Performance**
 
-Actual vs Target performance comparison
+* Customer service level matrix
+* Conditional formatting based on performance gaps
+* Top & Bottom customers by OTIF %
 
-City-wise service level performance
+**Product Insights**
 
-Customer Performance
+* Product-level fulfillment analysis
+* LIFR and VOFR performance
+* Sparklines showing product performance trends
+* Trend Analysis
+* Service level performance over time
+* Dynamic metric switching
+* Drill-down capability for detailed analysis
 
-Customer service level matrix
+**Key Insights page**
 
-Conditional formatting based on performance gaps
-
-Top & Bottom customers by OTIF %
-
-Product Insights
-
-Product-level fulfillment analysis
-
-LIFR and VOFR performance
-
-Sparklines showing product performance trends
-
-Trend Analysis
-
-Service level performance over time
-
-Dynamic metric switching
-
-Drill-down capability for detailed analysis
-
-Key Insights Page
-
-Summary of major findings
-
-Identification of supply chain inefficiencies
-
-Recommendations for improvement
+* Summary of major findings
+* Identification of supply chain inefficiencies
+* Recommendations for improvement
 
 📊 Key Insights
 
-Overall OTIF performance is 29% vs target of ~66%, indicating major fulfillment challenges
-
-Delayed deliveries significantly impact customer service levels
-
-Some customers show extremely low OTIF performance, indicating potential service risks
-
-While VOFR is high (~96%), LIFR is much lower (~66%), indicating line-level fulfillment issues
+1. Overall OTIF performance is 29% vs target of ~66%, indicating major fulfillment challenges
+2. Delayed deliveries significantly impact customer service levels
+3. Some customers show extremely low OTIF performance, indicating potential service risks While VOFR is high (~96%), LIFR is much lower (~66%), indicating line-level fulfillment issues
 
 🛠 Tools & Technologies
 
